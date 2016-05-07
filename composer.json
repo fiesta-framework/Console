@@ -1,6 +1,6 @@
 {
     "name": "fiesta/plug",
-    "type": "fiesta-plugin",
+    "type": "pikia-plugin",
     "require": {
         "php": ">=5.3.0",
         "pikia/installers": "*"
