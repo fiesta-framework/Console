@@ -1,11 +1,6 @@
 {
     "name": "fiesta/plug",
-    
-	"extra": {
-	    "installer-types": ["fiesta_plugin"],
-	    "installer-paths": {
-	      "special/package/": ["my/package"],
-	      "oo/{$name}/": ["type:fiesta_plugin"]
-	    }
-	}
+    "extra": {
+        "installer-types": ["fiesta_plugin"]
+    }
 }
