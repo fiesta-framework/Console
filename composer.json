@@ -1,6 +1,6 @@
 {
     "name": "fiesta/plug",
-    "type": "fiesta-pluging",
+    "type": "cakephp-plugin",
     "require": {
         "composer/installers": "~1.0"
     }
