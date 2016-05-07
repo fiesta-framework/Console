@@ -1,6 +1,3 @@
 {
-    "name": "fiesta/plug",
-    "extra": {
-        "installer-types": ["fiesta_plugin"]
-    }
+    "name": "fiesta/plug"
 }
