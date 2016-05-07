@@ -1,6 +1,6 @@
 {
     "name": "fiesta/plug",
-    "type": "cakephp-plugin",
+    "type": "fiesta-plugin",
     "require": {
         "php": ">=5.3.0",
         "composer/installers": "*"
