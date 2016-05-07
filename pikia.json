@@ -1,0 +1,41 @@
+{
+
+	"configuration":
+	{
+		"enable": true,
+		"shortcuts": 
+		{
+			"Console": "Pikia/Plugins/Console/Console"
+		}
+	},
+
+	"system":
+	{
+		"alias": "console",
+		"name": "Pikia Console plugin",
+		"description": "The version of console to execute pikia console",
+		"keywords": ["Pikia" , "Console", "Plugin"],
+		"license": "MIT",
+		"authors": [
+			{
+				"name": "Youssef Had",
+				"email": "youssefhad2@gmail.com"
+			}
+		],
+		"version": "0.2.0",
+		"autoload": {
+			"file": "ini.php"
+		},
+		"panel": 
+		{
+			"color": "#263751"
+		},
+		"core": 
+		{
+			"views": "/views"
+		}
+	}
+
+	
+
+}
