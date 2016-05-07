@@ -1,0 +1,15 @@
+{
+	"name": "fiesta/plug",
+	"description": "The core of Fiesta.",
+	"keywords": ["framework", "fiesta", "kernel"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Youssef Had",
+			"email": "youssefhad2@gmail.com"
+		}
+	],
+	"config": {
+        "vendor-dir": "plugins"
+    }
+}
