@@ -1,9 +1,9 @@
 {
     "name": "fiesta/plug",
-    "type": "wordpress-plugin",
+    "type": "fiesta-plugin",
     "require": {
         "php": ">=5.3.0",
-        "composer/installers": "*"
+        "pikia/installers": "*"
     },
     "extra": {
         "installer-name": "folo"
