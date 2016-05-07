@@ -11,8 +11,5 @@
 	],
 	"config": {
         "vendor-dir": "plugins"
-    },
-    "require": {
-        "composer/installers": "dev-master"
     }
 }
