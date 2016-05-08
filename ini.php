@@ -10,9 +10,9 @@ use Pikia\Kernel\Foundation\Application;
 
 class Console
 {
-	public static function setup()
+	public static function setup($ajax)
 	{		
-		View::import("console","main");
+		View::import("console","main",array("ajax" => $ajax));
 	}
 
 	public static function ini()
