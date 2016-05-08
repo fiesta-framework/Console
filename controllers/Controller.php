@@ -13,9 +13,7 @@ class Controller
 	 */
 	public static function resources()
 	{
-		$alias = Plugins::setAlias($alias);
-		//
-		return "plugins/$alias/resources/";
+		return "plugins/console/resources/";
 	}
 
 	/**
