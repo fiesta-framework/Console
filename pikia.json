@@ -6,7 +6,8 @@
 		"shortcuts": 
 		{
 			"Console": "Pikia/Plugins/Console/Console",
-			"Console_Controller": "Pikia/Plugins/Console/Controller"
+			"Console_Controller": "Pikia/Plugins/Console/Controller",
+			"consoleResponse": "Pikia/Plugins/Console/Response"
 		}
 	},
 
