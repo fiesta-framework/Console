@@ -3,13 +3,23 @@ body
 	background-color: #263751;
 	padding: 0px;
 	margin: 0px;
+    font-size: 13px;
+    font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
 }
 
 .input
 {
-	position: absolute;
-	bottom: 0px;
-	background-color: #141d2b;
+	color: white;
 	width: 100%;
-	height:45px;
+	height:35px;
+	margin-top:10px;
+}
+
+.input_text
+{
+	font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+	border:none;
+	background-color: transparent;
+	outline: none;
+	color: white;
 }
