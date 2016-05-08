@@ -5,35 +5,36 @@ namespace Pikia\Plugins\Console;
 use Pikia\Kernel\MVC\View\View;
 use Pikia\Kernel\Foundation\Connector;
 use Pikia\Kernel\Plugins\Plugins;
+use Pikia\Kernel\Foundation\Application;
 
 
 class Console
 {
-	public static function hello()
+	public static function setup()
 	{		
 		View::import("console","main");
 	}
 
 	public static function ini()
 	{		
-		
-		//
-		Connector::need();
-		View::import("console","main");
+		self::callControllers();
 	}
 
-	public static function callControllers()
+	protected static function callControllers()
 	{
-		$alias = "console";
-		$controllers = Plugins::getCore("console","controllers");
+		$controllers = self::fetch('controllers');
 		//
-		$path = "plugins/$alias/$controllers/";
-		//
-		self::call( self::fetch($path) , self::$path.'Console/' );
+		Connector::using($controllers);
 	}
 
-	public static function fetch($path)
+	protected static function fetch($path)
 	{
-		return Connector::fetch($path)
+		return glob(Application::$root."plugins/console/$path/*.php");
 	}
 }
+
+/**
+ * Init the plugin
+ */
+
+Console::ini();
