@@ -23,6 +23,16 @@ class Controller
 	{
 		$route = self::resources();
 		//
-		Libs::css($route."style.css",false);
+		Libs::css($route."$path.css",false);
+	}
+
+	/**
+	 * Get JS file
+	 */
+	public static function js($path)
+	{
+		$route = self::resources();
+		//
+		Libs::js($route."$path.js",false);
 	}
 }
