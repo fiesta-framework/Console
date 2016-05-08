@@ -5,7 +5,8 @@
 		"enable": true,
 		"shortcuts": 
 		{
-			"Console": "Pikia/Plugins/Console/Console"
+			"Console": "Pikia/Plugins/Console/Console",
+			"Console_Controller": "Pikia/Plugins/Console/Controller"
 		}
 	},
 
@@ -32,7 +33,9 @@
 		},
 		"core": 
 		{
-			"views": "/views"
+			"views": "/views",
+			"resources": "/resources",
+			"controllers": "/controllers"
 		}
 	}
 
