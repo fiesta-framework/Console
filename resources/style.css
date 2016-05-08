@@ -1,8 +1,8 @@
 body
 {
-	background-color: #263751;
-	padding: 0px;
-	margin: 0px;
+	background-color: #14191f;
+	/*padding: 0px;
+	margin: 0px;*/
     font-size: 13px;
     font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
 }
@@ -17,9 +17,19 @@ body
 
 .input_text
 {
+	width: 90%;
 	font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
 	border:none;
 	background-color: transparent;
 	outline: none;
 	color: white;
 }
+
+.output
+{
+	margin:4px;
+}
+
+.error { color : #e9004b; }
+.comment { color : #03b952; }
+.info { color : #4593fb; }
