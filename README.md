@@ -2,4 +2,4 @@
 
 To install the plugin
 
-  $ php pikia require pikia/console
+    $ php pikia require pikia/console
