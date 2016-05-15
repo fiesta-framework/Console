@@ -8,16 +8,9 @@ To install the plugin
 
 add route to use for console : 
 
-get("console",function()
-{
-	Console::setup("jj");
-});
+Route::get("console",function() { Console::setup("console_ajax"); });
+Route::get( "console_ajax" ,function() { consoleResponse::exec(); });
 
-add ajax route
-
-get("jj",function()
-{
-	consoleResponse::exec();
-});
+you should change "console_ajax" string to a costum route 
 
 
